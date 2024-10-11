@@ -1,5 +1,5 @@
 <!--footer-->
-<footer class="py-3 px-0 position-relative" id="footer" style="padding-top: 100px;">
+<footer class="py-3 px-0 position-relative quicksand-font" id="footer" style="padding-top: 100px;">
         <div class="footer-waves">
             <div class="wave" id="wave1"></div>
             <div class="wave" id="wave2"></div>
@@ -20,14 +20,14 @@
                 <a href="#aplicativo" class="nav-link px-2">Aplicativo</a>
             </li>
             <li class="nav-item">
-                <a href="#aplicativo" class="nav-link px-2">Denúncias</a>
+                <a href="#denuncias" class="nav-link px-2">Denúncias</a>
             </li>
             <li class="nav-item">
                 <a href="#nossa-equipe" class="nav-link px-2">Integrantes</a>
             </li>
         </ul>
 
-        <p class="text-center text-white">© 2024 Proteção de Animais Silvestres, WILD</p>
+        <p class="text-center text-white" style="font-size: 25px;">© 2024 Proteção de Animais Silvestres, WILD</p>
 </footer>  
 
 

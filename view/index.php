@@ -2,7 +2,7 @@
 <?php include("../controller/funcao-read-animal-tab.php"); ?>
 
 <!--Conteúdo-->
-<main class="mt-5 karla-font" style="padding-top: 100px;">
+<main class="mt-5 quicksand-font" style="padding-top: 100px;">
     <div class="container-fluid">
         <div class="container">
             <div class="row">
@@ -136,7 +136,7 @@
     <!--Denúncias do mês-->
     <div class="container" style="padding-top: 300px;">
 
-        <h1 data-aos="fade-up" class="text-center quicksand-font" id="aplicativo">Denúncias <span style="color: #EDA011;">recentes</span></h1>
+        <h1 data-aos="fade-up" class="text-center quicksand-font" id="denuncias">Denúncias <span style="color: #EDA011;">recentes</span></h1>
 
         <table data-aos="fade-up" class="table table-striped table-dark mt-5 text-center">
             <thead>
@@ -157,7 +157,7 @@
 <!--Card-->
 <div class="container" style="padding-top: 200px;">
 
-    <h1 data-aos="fade-up" class="mt-5 mb-5 text-center quicksand-font" id="aplicativo">Nossa <span style="color: #EDA011;">equipe!</span></h1>
+    <h1 data-aos="fade-up" class="mt-5 mb-5 text-center quicksand-font" id="nossa-equipe">Nossa <span style="color: #EDA011;">equipe!</span></h1>
 
     <div class="row">
         <!--Beatriz-->
