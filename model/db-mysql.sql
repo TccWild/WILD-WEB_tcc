@@ -24,44 +24,77 @@ CREATE TABLE IF NOT EXISTS `cadastroanimal` (
   `img` varchar(50) NOT NULL DEFAULT '0',
   `text` varchar(50) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- Copiando dados para a tabela crudmobile.cadastroanimal: ~1 rows (aproximadamente)
+DELETE FROM `cadastroanimal`;
 /*!40000 ALTER TABLE `cadastroanimal` DISABLE KEYS */;
 INSERT INTO `cadastroanimal` (`id`, `nome`, `descricao`, `img`, `text`) VALUES
-	(2, 'capivara', 'Branco', '0', '0');
+	(1, '0', '0', 'ff695667-8754-46ce-8ee8-16f894328e9f.jpeg', 'http://10.68.36.117/tccWild/259596-ff695667-8754-4');
 /*!40000 ALTER TABLE `cadastroanimal` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela crudmobile.denuncia
 CREATE TABLE IF NOT EXISTS `denuncia` (
-  `cod` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(50) NOT NULL,
   `tipo` varchar(50) NOT NULL,
-  `latitude` int(11) DEFAULT NULL,
-  `longitude` int(11) DEFAULT NULL,
-  PRIMARY KEY (`cod`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+  `latitude` varchar(50) NOT NULL,
+  `longitude` varchar(50) NOT NULL,
+  `nivel` varchar(50) NOT NULL,
+  `img` varchar(50) DEFAULT NULL,
+  `text` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
--- Copiando dados para a tabela crudmobile.denuncia: ~2 rows (aproximadamente)
+-- Copiando dados para a tabela crudmobile.denuncia: ~13 rows (aproximadamente)
+DELETE FROM `denuncia`;
 /*!40000 ALTER TABLE `denuncia` DISABLE KEYS */;
-INSERT INTO `denuncia` (`cod`, `nome`, `tipo`, `latitude`, `longitude`) VALUES
-	(9, 'Cachorro', 'Ferido', -24, -24),
-	(10, 'asdasdasd', 'asdasd', 0, 0);
+INSERT INTO `denuncia` (`id`, `nome`, `tipo`, `latitude`, `longitude`, `nivel`, `img`, `text`) VALUES
+	(1, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(2, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(3, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(4, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(5, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(6, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(7, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(8, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(9, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(10, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(11, '', '', '', '', '', '27cf8b2a-eecc-4670-979b-6c1a3a6599cb.jpeg', 'http://10.68.36.117/tccWild/543102-27cf8b2a-eecc-4'),
+	(12, 'gato', 'Ferido', '37.4219983', '-122.084', '2', '', ''),
+	(13, '', '', '', '', '', '27cf8b2a-eecc-4670-979b-6c1a3a6599cb.jpeg', 'http://10.68.36.117/tccWild/914810-27cf8b2a-eecc-4');
 /*!40000 ALTER TABLE `denuncia` ENABLE KEYS */;
+
+-- Copiando estrutura para tabela crudmobile.rastreador
+CREATE TABLE IF NOT EXISTS `rastreador` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `latitude` float NOT NULL DEFAULT 0,
+  `longitude` float NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+-- Copiando dados para a tabela crudmobile.rastreador: ~0 rows (aproximadamente)
+DELETE FROM `rastreador`;
+/*!40000 ALTER TABLE `rastreador` DISABLE KEYS */;
+/*!40000 ALTER TABLE `rastreador` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela crudmobile.usuario
 CREATE TABLE IF NOT EXISTS `usuario` (
-  `Cod_Usuario` int(11) NOT NULL AUTO_INCREMENT,
-  `Email_Usuario` varchar(50) NOT NULL DEFAULT '0',
-  `Senha_Usuario` varchar(50) NOT NULL DEFAULT '0',
-  `Nome_Usuario` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`Cod_Usuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(50) DEFAULT NULL,
+  `Email` varchar(50) NOT NULL DEFAULT '0',
+  `Senha` varchar(50) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
--- Copiando dados para a tabela crudmobile.usuario: ~1 rows (aproximadamente)
+-- Copiando dados para a tabela crudmobile.usuario: ~4 rows (aproximadamente)
+DELETE FROM `usuario`;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` (`Cod_Usuario`, `Email_Usuario`, `Senha_Usuario`, `Nome_Usuario`) VALUES
-	(1, '@isaaac', '1234', 'isaaac');
+INSERT INTO `usuario` (`id`, `Nome`, `Email`, `Senha`) VALUES
+	(1, 'isaaac', '@isaaac', '1234'),
+	(2, 'isaac', '@isaac', '123'),
+	(3, 'ISAAC', '@gordo', '2411'),
+	(4, 'asd', 'asd', 'asd');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela crudmobile.usuarios
@@ -72,15 +105,27 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `senha` varchar(50) NOT NULL,
   `cidade` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
--- Copiando dados para a tabela crudmobile.usuarios: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela crudmobile.usuarios: ~15 rows (aproximadamente)
+DELETE FROM `usuarios`;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `cidade`) VALUES
 	(20, 'Ramon Trigo', '@ramon', '2411', 'Miracatu'),
 	(21, 'isaac', 'asa', '213', 'ca'),
 	(22, 'luizinho', '@luiz', '9876', 'Iguape'),
-	(23, 'beatriz', '@bia', '123', 'cananeia - sp');
+	(23, 'beatriz', '@bia', '123', 'cananeia - sp'),
+	(24, 'isaac', '@123', '123', 'cajati'),
+	(25, 'Vitor Gabriel', '@vitin', '9988', 'Jacupiranga'),
+	(26, 'Guilherme', '@gui', '1234', 'Pariquera-Açu'),
+	(27, 'geovanna', '@gabs', '2211', 'japitunga'),
+	(28, 'asd', 'asd', 'asd', 'sad'),
+	(29, 'asda', 'sd', 'asd', ''),
+	(30, 'asddsa', 'sdads', '32342', 'sadds'),
+	(31, 'dsf', 'fdssdf', 'dfsdfs', 'dfsdfs'),
+	(32, 'felipe', '@felipe', '321654', 'cajati'),
+	(33, 'felipel', '@felipel', '1234', 'registro'),
+	(34, 'felipel', '@felipe12', '1234', 'registro');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
