@@ -6,23 +6,55 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-xxl-6 col-xl-6 text-center">
-                    <img data-aos="fade-up" src="images/img1.png" alt="">
+                <h1 data-aos="fade-up" class="quicksand-font text-center" id="sobre-nos">Sobre <span style="color: #EDA011;">nós</span></h1>
+                <p data-aos="fade-up" class="mt-4">A <span style="color: #EDA011;">WILD</span> tem por objetivo facilitar a comunicação entre o cidadão comum e as autoridades ambientais, simplificando o processo de denúncia e resposta.</p>   
+                <p data-aos="fade-up">Com a fauna ampla, o Vale do Ribeira tem cerca de 849 espécies de aves, 370 espécies de anfíbios, 200 de répteis e cerca de 350 espécies de peixes, porém estima-se que 50 dessas espécies estão ameaçadas de extinção. Logo, a <span style="color: #EDA011;">WILD</span> busca fornecer uma maneira prática para que o cidadão possa preservar o ecossistema.</p> 
+                
+                
+                <center>
+                <!--Carrossel-->
+            <div data-aos="fade-up" id="demo" class="carousel slide mt-5" data-bs-ride="carousel" style="width: 70%;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
                 </div>
-
-                <div class="col-sm-12 col-xxl-6 col-xl-6 mt-4">
-                    <h1 data-aos="fade-up" class="quicksand-font" id="sobre-nos">Sobre <span style="color: #EDA011;">nós</span></h1>
-                    <p data-aos="fade-up" class="mt-4">A <span style="color: #EDA011;">WILD</span> tem por objetivo facilitar a comunicação entre o cidadão comum e as autoridades ambientais, simplificando o processo de denúncia e resposta.</p>
+  
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                        <img src="images/1.png" alt="Primeira imagem" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="images/2.png" alt="Segunda imagem" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="images/3.png" alt="Terceira imagem" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="images/4.png" alt="Segunda imagem" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="images/5.png" alt="Terceira imagem" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="images/6.png" alt="Terceira imagem" class="d-block w-100">
+                    </div>
                 </div>
+  
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
-
-            <div class="row">
-                <div class="col mt-5">                  
-                    <p data-aos="fade-up">Com a fauna ampla, o Vale do Ribeira tem cerca de 849 espécies de aves, 370 espécies de anfíbios, 200 de répteis e cerca de 350 espécies de peixes, porém estima-se que 50 dessas espécies estão ameaçadas de extinção. Logo, a <span style="color: #EDA011;">WILD</span> busca fornecer uma maneira prática para que o cidadão possa preservar o ecossistema.</p>
-                </div>
+            </center>
+                
             </div>
-        </div>
-        
+        </div>       
     </div>
 
     <div class="container-fluid mt-5" style="background-color: #313131; padding-top: 90px; padding-bottom: 90px;">
@@ -102,7 +134,7 @@
     </div>
 
     <!--Denúncias do mês-->
-    <div class="container" style="padding-top: 90px;">
+    <div class="container" style="padding-top: 300px;">
 
         <h1 data-aos="fade-up" class="text-center quicksand-font" id="aplicativo">Denúncias <span style="color: #EDA011;">recentes</span></h1>
 
@@ -111,7 +143,7 @@
                 <tr>
                     <th scope="col" style="color: #EDA011;">Foto</th>
                     <th scope="col" style="color: #EDA011;">Nome</th>
-                    <th scope="col" style="color: #EDA011;">Tipo</th>                   
+                    <th scope="col" style="color: #EDA011;">Status</th>                   
                 </tr>
             </thead>
 
@@ -124,7 +156,7 @@
 </main>
 
 <!--Card-->
-<div class="container" style="padding-top: 90px;">
+<div class="container" style="padding-top: 200px;">
 
     <h1 data-aos="fade-up" class="mt-5 mb-5 text-center quicksand-font" id="aplicativo">Nossa <span style="color: #EDA011;">equipe!</span></h1>
 

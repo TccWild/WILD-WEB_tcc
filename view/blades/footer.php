@@ -20,6 +20,9 @@
                 <a href="#aplicativo" class="nav-link px-2">Aplicativo</a>
             </li>
             <li class="nav-item">
+                <a href="#aplicativo" class="nav-link px-2">Denúncias</a>
+            </li>
+            <li class="nav-item">
                 <a href="#nossa-equipe" class="nav-link px-2">Integrantes</a>
             </li>
         </ul>
