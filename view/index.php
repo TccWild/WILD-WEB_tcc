@@ -83,7 +83,7 @@
                     <p data-aos="fade-up" class="bi bi-arrow-return-right" style="color: #EDA011;"><span style="color: #FFFFFF;"> Facilitar o processo de atender denúncias;</span></p>
                     <p data-aos="fade-up" class="bi bi-arrow-return-right" style="color: #EDA011;"><span style="color: #FFFFFF;"> Visualizar a localização e o nível de periculosidade da denúncia;</span></p>
                     <p data-aos="fade-up" class="bi bi-arrow-return-right" style="color: #EDA011;"><span style="color: #FFFFFF;"> Exibir com facilidade todas as denúncias que a equipe deve atender;</span></p> 
-                    <p data-aos="fade-up" class="bi bi-arrow-return-right" style="color: #EDA011;"><span style="color: #FFFFFF;"> Enviar atualizações sobre o animal resgatado</span></p>      
+                    <p data-aos="fade-up" class="bi bi-arrow-return-right" style="color: #EDA011;"><span style="color: #FFFFFF;"> Enviar atualizações sobre o animal resgatado.</span></p>      
                 </div>
             </div>
 
@@ -101,9 +101,9 @@
     <div class="container" style="padding-top: 90px;">
         <h1 data-aos="fade-up" class="text-center quicksand-font" id="aplicativo">Aplicativo <span style="color: #EDA011;">WILD</span></h1>
         <p data-aos="fade-up" class="mt-4">
-            O aplicativo WILD visa facilitar a comunicação entre o cidadão comum e a autoridade ambiental, simplificando o processo de denúncia e resposta. Quando um animal em situação de risco é avistado, os usuários podem facilmente fornecer sua localização e estado através do aplicativo, gerando uma denúncia que é encaminhada diretamente às autoridades, assim, agilizando o atendimento às queixas e promovendo uma maior segurança tanto para os animais quanto para a sociedade.
+            O aplicativo <span style="color:#EDA011;">WILD</span> visa facilitar a comunicação entre o cidadão comum e a autoridade ambiental, simplificando o processo de denúncia e resposta. 
         </p>
-        <p data-aos="fade-up" class="mt-4">Para garantir uma melhor usabilidade, o aplicativo WILD tem duas versões: para o <span style="text-decoration: underline #EDA011;">cidadão</span> e para a <span style="text-decoration: underline #EDA011;">autoridade ambiental</span>.</p>
+        <p data-aos="fade-up" class="mt-4">Para garantir uma melhor usabilidade, o aplicativo <span style="color:#EDA011;">WILD</span> tem duas versões: para o <span style="text-decoration: underline #EDA011;">cidadão</span> e para a <span style="text-decoration: underline #EDA011;">autoridade ambiental</span>.</p>
     </div>
 
     <div class="container mt-5">
@@ -114,7 +114,7 @@
             <div class="col-sm-12 col-xxl-6 col-xl-6 mt-4">
                 <h2 data-aos="fade-up" class="mt-3 bi bi-arrow-return-right quicksand-font" style="color: #EDA011;"> <span style="color: #FFFFFF;">Para o </span><span style="text-decoration: underline #EDA011; color: #FFFFFF;">cidadão</span></h2>
 
-                <p data-aos="fade-up">Para o cidadão comum, o aplicativo WILD oferece um fácil processo de denúncia e comunicação com as autoridades competentes, assim, garantindo à ele uma maior segurança. Os usuários também podem cadastrar novos animais, adicionar descrições e enviar sua localização, o que agiliza o processo de denúncia e garante que as informações cheguem de forma clara e precisa às autoridades. Além disso, para lhes proporcionar uma maior transparência e tranquilidade quanto ao andamento das denúncias, os cidadãos recebem atualizações sobre os animais denunciados.</p>
+                <p data-aos="fade-up">Para o cidadão comum, o aplicativo <span style="color:#EDA011;">WILD</span> oferece um fácil processo de denúncia e comunicação com as autoridades competentes, assim, garantindo à ele uma maior segurança. Os usuários também podem cadastrar novos animais, adicionar descrições e enviar sua localização, o que agiliza o processo de denúncia e garante que as informações cheguem de forma clara e precisa às autoridades. Os cidadãos também recebem atualizações sobre os animais denunciados.</p>
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
             <div class="col-sm-12 col-xxl-6 col-xl-6 mt-4">
                 <h2 data-aos="fade-up" class="mt-5 bi bi-arrow-return-right quicksand-font" style="color: #EDA011;"> <span style="color: #FFFFFF;">Para a </span><span style="text-decoration: underline #EDA011; color: #FFFFFF;">autoridade</span></h2>
 
-                <p data-aos="fade-up">A versão do aplicativo WILD para a autoridade ambiental, possibilitando à autoridade atender um maior número de pessoas com eficiência, o sistema oferece um processo de atendimento às denúncias simplificado, permitindo que a autoridade visualize a localização exata do animal e o nível de periculosidade de cada caso, que são exibidos de forma organizada, priorizando situações mais urgentes. Além disso, as autoridades também podem enviar atualizações sobre os animais, tranquilizando os denunciantes.</p>
+                <p data-aos="fade-up">Para a autoridade ambiental, o aplicativo <span style="color:#EDA011;">WILD</span> possibilita atender um maior número de pessoas com eficiência, permitindo que a autoridade visualize a localização exata do animal e o nível de periculosidade de cada caso, que são exibidos de forma organizada, priorizando situações mais urgentes. Além disso, as autoridades também podem enviar atualizações sobre os animais, tranquilizando os denunciantes.</p>
             </div>
 
             <div data-aos="fade-up" class="col-sm-12 col-xxl-6 col-xl-6 mt-4 text-center">
@@ -142,7 +142,6 @@
             <thead>
                 <tr>
                     <th scope="col" style="color: #EDA011;">Foto</th>
-                    <th scope="col" style="color: #EDA011;">Nome</th>
                     <th scope="col" style="color: #EDA011;">Status</th>                   
                 </tr>
             </thead>
