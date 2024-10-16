@@ -86,15 +86,6 @@
                     <p data-aos="fade-up" class="bi bi-arrow-return-right" style="color: #EDA011;"><span style="color: #FFFFFF;"> Enviar atualizações sobre o animal resgatado.</span></p>      
                 </div>
             </div>
-
-            <!--<div class="row text-center mt-5">
-                <div class="col-sm-12 col-xxl-6 col-xl-6">
-                    <img src="images/grafico.png" style="width: 70%;"  alt="">
-                </div>
-                <div class="col-sm-12 col-xxl-6 col-xl-6 ">
-                    <img src="images/grafico.png" style="width: 70%;"  alt="">
-                </div>
-            </div>-->
         </div>
     </div> 
 

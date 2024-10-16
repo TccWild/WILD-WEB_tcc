@@ -4,7 +4,7 @@
         $query = mysqli_query($conexao,"SELECT * FROM denuncia ORDER BY nome DESC");
             while($exibe = mysqli_fetch_array($query)){
             echo "<tr>
-                    <th>$exibe[2]</th>
+                    <th>$exibe[6]</th>
                     <td>$exibe[2]</td>
                 </tr>";       
             }
